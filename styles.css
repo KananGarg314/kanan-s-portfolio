@@ -1,0 +1,210 @@
+/* Google Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Body Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #98B4D4;
+}
+
+/* Navbar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  font-family: 'Jura', sans-serif; /* Applies the Jura font */
+}
+
+.navbar a {
+  color: #f1f7ed;
+  text-align: center;
+  padding: 25px;
+  text-decoration: none;
+  font-size: 20px;
+  transition: background-color 0.5s ease;
+}
+
+.navbar a:hover {
+  background-color: #92A8D1;
+  color: black;
+}
+
+.navbar a.active {
+  color: white;
+}
+
+/* Homepage */
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.welcome-message {
+  font-family: 'Space Mono', monospace; /* Applies the Space Mono font */
+  text-align: center;
+  margin-bottom: 60px;
+  color: black;
+  font-size: 200px;
+}
+
+.scroll-subtext {
+  font-family: 'Space Mono', monospace;
+  font-size: 30px;
+  color: #666;
+  display: none;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Carousel */
+.carousel {
+  width: 60%;
+  margin: 40px auto; /* Centers carousel and adds space above */
+}
+
+.carousel-item img {
+  width: 100%; 
+  max-height: 300px; /* changes image's height */
+  object-fit: contain;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  width: auto;
+}
+
+/* About Me Page */
+.about-me {
+  background-color: #91c7b1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.facts-title {
+  font-family: 'Space Mono', monospace; /* Applies the Space Mono font */
+  font-size: 24px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+/* Contact Me */
+.contact {
+  color: white;
+  padding: 20px;
+  font-family: 'Space Mono', monospace; /* Applies the Space Mono font */
+  text-align: center;
+  margin-top: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #98B4D4;
+  min-height: 100vh;
+}
+
+.contact h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+/* Social Media Icons (I had to use other online sources for this) */
+.social-media {
+  margin-top: 30px; /* Space above the icons */
+}
+
+.social-icon {
+  color: #6A2E2A;
+  font-size: 60px;
+  margin: 0 20px;
+  transition: color 0.3s;
+  display: inline-block;
+}
+
+.social-icon:hover {
+  color: #DFCFBE;
+}
+
+/* Accordion button (It was a while since I learned this, so I used other online resources to apply this correctly*/
+.accordion-button {
+  font-family: 'Poppins', sans-serif; /* Applies Poppins font to accordion button */
+  font-size: 18px;
+}
+
+/* Card body */
+.card-body {
+  font-family: 'Poppins', sans-serif; /* Applies Poppins font*/
+  font-size: 16px;
+}
+
+/* Dropdown Customizations */
+.dropdown-toggle {
+  font-family: 'Poppins', sans-serif; /* Applies Poppins font */
+  font-size: 18px;
+  background-color: black;
+  color: #fff;
+  border: none;
+}
+
+.dropdown-toggle:hover {
+  background-color: #fe0000;
+  color: black;
+}
+
+.dropdown-menu {
+  background-color: black;
+  border: none;
+}
+
+.dropdown-menu .dropdown-item {
+  font-family: 'Poppins', sans-serif; /* Applies Poppins font */
+  font-size: 16px;
+  color: #fff;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: blue;
+  color: plum;
+}
+
+.dropdown-divider {
+  border-top: 1px solid black;
+  font-family: 'Poppins', sans-serif; /* Applies Poppins font */
+}
+
+/* Wireframe */
+.wireframe {
+  background-color: #F0EDE5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  padding: 20px;
+}
+
+.wireframe iframe {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 800px;
+  height: 450px;
+  margin-bottom: 20px;
+}
+
+.wireframe h1 {
+  font-family: 'Space Mono', monospace;
+  font-size: 36px;
+  color: black;
+}

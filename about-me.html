@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Me - Kanan's Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body class="about-me">
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="index.html">HOME</a>
+        <a class="active" href="about-me.html">ABOUT ME</a>
+        <a href="contact.html">CONTACT</a>
+        <a href="wireframe.html">WIREFRAME</a>
+    </div>
+
+    <!-- About Me Content -->
+    <div class="container mt-5">
+        <h2 class="facts-title">Here are some interesting facts about me:</h2>
+        <div class="accordion" id="accordionExample">
+            <!-- First Dropdown -->
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            What are your hobbies?
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                        I have many of them!<br>
+                
+                        <br>I LOVE watching anime, listening to music, playing video games, and hanging out with friends often!
+                        If you won't see me working, then chances are that you'll probably find me binge-watching anime or doodling random sketches in my notebook.<br>
+                        
+                        <br>I also like photography (disclaimer: I'm NOT a professional, I just do this for fun). <br>Here are some images I took before:
+                        
+                        <!-- Embedding (doesn't really show because the link keeps getting broken) link using iframe -->
+                        <iframe src="https://www.instagram.com/p/ChBCY7oLFNb/embed" width="500" height="480" frameborder="0" scrolling="yes" allowtransparency="true"></iframe>
+                    </div>
+                </div>
+            </div>
+            <!-- Second Dropdown -->
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            What is your educational background?
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                        I'm currently going to be a junior at The Baccalaureate School for Global Education in Astoria, Queens. I hope to study computer science in the future and am interested in intersections between CS and medicine, especially neuroscience.
+                    </div>
+                </div>
+            </div>
+            <!-- Third Dropdown -->
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            What are your career goals?
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        I want to work in the STEM field, especially computer science, and learn more about how technology can be better used to improve healthcare. My goal is to expand my knowledge of programming languages and ultimately get hired by a large tech company.
+                    </div>
+                </div>
+            </div>
+            <!-- fourth dropdown -->
+            <div class="card">
+                <div class="card-header" id="headingFour">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            What prior experience do you have?
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                    <div class="card-body">
+                        I have minor experience with HTML, CSS, JavaScript, Java, and Python. I also have slight experience with laser cutting and 3D printing, but I hope to deepen my knowledge in these areas soon.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Boostrap & JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
